@@ -10,7 +10,8 @@ end
 
 def summon_captain_planet(array)# code an argument here
   # Your code here
-  array.map{|name| name.capitalize + "!"}
+  arr1 = array.map{|name| name.capitalize }
+  arr1.map{|name| name + "!"}
   return array
 end
 
