@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
   alen = array.length
   out = ""
   array.each_with_index do |name, index|
-    out << "#{index +1}. #{name}"
+    out << "#{index}. #{name}"
   end
   return out
 end
