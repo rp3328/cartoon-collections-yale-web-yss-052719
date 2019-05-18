@@ -11,8 +11,8 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   arr1 = array.map{|name| name.capitalize }
-  arr1.map{|name| name + "!"}
-  return arr1
+  arr2 = arr1.map{|name| name + "!"}
+  return arr2
 end
 
 def long_planeteer_calls# code an argument here
